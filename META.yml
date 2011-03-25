@@ -1,0 +1,36 @@
+---
+abstract: ~
+author:
+  - 'zdk (Warachet Samtalee)'
+build_requires:
+  Catalyst::Runtime: 5.80015
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.88
+  Test::WWW::Mechanize::Catalyst: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-OAuth2-Provider
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Controller::ActionRole: 0
+  CatalystX::InjectComponent: 0
+  Digest::HMAC_SHA1: 0
+  HTTP::Headers::Util: 0
+  JSON::XS: 0
+  Moose: 0
+  Moose::Autobox: 0
+  OAuth::Lite: 0
+  namespace::autoclean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/startsiden/catalystx-oauth2-provider
+version: 0.0001
