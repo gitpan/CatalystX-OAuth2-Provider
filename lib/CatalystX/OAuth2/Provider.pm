@@ -3,7 +3,7 @@ use Moose::Role;
 use CatalystX::InjectComponent;
 use namespace::autoclean;
 
-our $VERSION = '0.0001';
+our $VERSION = '0.0002';
 
 after 'setup_components' => sub {
     my $class = shift;
@@ -63,6 +63,9 @@ CatalystX::OAuth2::Provider -
                     client_secret  => q{THIS_IS_SECRET},
                     redirect_uri   => q{CLIENT_REDIRECT_URI},
                 },
+            },
+            protected_resource => {
+               secret_key => 'secret',
             }
         }
     );

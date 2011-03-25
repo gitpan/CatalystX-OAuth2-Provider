@@ -3,6 +3,12 @@ abstract: ~
 author:
   - 'zdk (Warachet Samtalee)'
 build_requires:
+  Catalyst::Plugin::Authentication: 0
+  Catalyst::Plugin::Session: 0
+  Catalyst::Plugin::Session::State::Auth: 0
+  Catalyst::Plugin::Session::State::Cookie: 0
+  Catalyst::Plugin::Session::State::URI: 0
+  Catalyst::Plugin::Session::Store::FastMmap: 0
   Catalyst::Runtime: 5.80015
   ExtUtils::MakeMaker: 6.42
   Test::More: 0.88
@@ -33,4 +39,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/startsiden/catalystx-oauth2-provider
-version: 0.0001
+version: 0.0002
