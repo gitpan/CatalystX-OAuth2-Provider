@@ -3,7 +3,7 @@ use Moose::Role;
 use CatalystX::InjectComponent;
 use namespace::autoclean;
 
-our $VERSION = '0.0002';
+our $VERSION = '0.0003';
 
 after 'setup_components' => sub {
     my $class = shift;
@@ -18,6 +18,9 @@ after 'setup_components' => sub {
 =head1 NAME
 
 CatalystX::OAuth2::Provider -
+
+=head1 VERSION
+    Version 0.0003
 
 =head1 SYNOPSIS
 
