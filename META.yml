@@ -31,6 +31,7 @@ no_index:
     - t
 requires:
   Catalyst::Controller::ActionRole: 0
+  CatalystX::Component::Traits: 0
   CatalystX::InjectComponent: 0
   Digest::HMAC_SHA1: 0
   HTTP::Headers::Util: 0
@@ -42,4 +43,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/startsiden/catalystx-oauth2-provider
-version: 0.0003
+version: 0.0004
